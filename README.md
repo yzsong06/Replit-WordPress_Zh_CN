@@ -7,7 +7,7 @@
 ------------------------------
 ## 使用说明
 - replit环境选择`Bash`
-- 不建议使用免费版部署，会泄漏数据库源文件
+- 不建议使用免费版部署，会泄漏数据库源文件及文件管理器密码
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Wordpress_zh_CN/main/install.sh)
@@ -18,8 +18,15 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Wordpress_zh_CN
 - 数据库名称：MySql
 - 数据库用户名：root
 - 数据库密码：root
-  
+
+## 在线文件管理配置
+依赖项目:[FileAdmin](https://github.com/NLR-DevTeam/FileAdmin)  
+修改密码：在Replit项目文件管理器根目录下找到file.php文件，打开后参照内部注释修改密码（Replit免费版会泄漏密码源文件）  
+使用方式：打开https://项目网址/file.php即可，密码同上方设置密码
+
 ## 脚本来源
 - [ ] 修改自Github开源项目 [https://github.com/onrepl/wordpress-replit](https://github.com/onrepl/wordpress-replit)
 - [x] 修改原脚本下载wordpress英文版改为wordpress中文版
 - [x] 修改原脚本命令英文语言显示改为中文
+- [x] 修改原英文在线文件管理器语言显示改为中文
+
