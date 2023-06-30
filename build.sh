@@ -1,3 +1,6 @@
+echo Replit部署WordPress中文版
+echo By The 一只鬆
+echo 仓库开源地址：https://github.com/yzsong06/Replit-WordPress_Zh_CN/
 #获取最新中文版WordPress
 curl -L https://cn.wordpress.org/latest-zh_CN.tar.gz -o wp.tar.gz
 tar -zxvf wp.tar.gz
