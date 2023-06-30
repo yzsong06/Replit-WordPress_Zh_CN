@@ -21,7 +21,7 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Wordpress_zh_CN
 
 ## 在线文件管理
 依赖项目:[FileAdmin](https://github.com/NLR-DevTeam/FileAdmin)  
-修改密码：在Replit项目文件管理器根目录下找到file.php文件，打开后参照内部注释修改密码（Replit免费版会泄漏密码源文件，请务必自己自定义密码，防止网站文件被他人读取）  
+修改密码：在Replit项目文件管理器根目录下找到file.php文件，打开后参照内部注释修改密码（Replit免费版会泄漏密码源文件，教育版及付费版请务必自己自定义密码，防止网站文件被他人读取）  
 使用方式：打开 https://项目网址/file.php 即可，密码同上方设置密码
 
 ## 数据库管理
