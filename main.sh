@@ -1,10 +1,14 @@
-curl -L https://wordpress.org/latest.tar.gz -o wp.tar.gz
+#获取最新中文版WordPress
+curl -L https://cn.wordpress.org/latest-zh_CN.tar.gz -o wp.tar.gz
 tar -zxvf wp.tar.gz
 mv -f wordpress/* ./
 rm -rf wordpress
+#解压SQL设定
 tar -zxvf data.tar.gz
+#清除冗余文件
 rm -rf wp.tar.gz
 rm -rf data.tar.gz
+#设置MySQL
 cat <<EOF > $HOME/$REPL_SLUG/data/my.cnf
 [server]
 datadir=$HOME/$REPL_SLUG/data
