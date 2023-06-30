@@ -1,7 +1,4 @@
 <p align="center"><b>WordPress中文版</b>部署于Replit，️WordPress是一款能让您建立出色网站、博客或应用程序的开源软件。</p>
-
-<a href="https://github.com/yzsong06/Replit-WordPress_Zh_CN/main/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sxbai/wordpress-zh_CN-on-replit.svg?style=flat-square" /></a>
-
 <br />
 <a href="https://www.takagi.icu">博客</a>
 <a href="https://cn.wordpress.org/support/">文档</a>
@@ -17,7 +14,11 @@ bash <(curl -s https://raw.githubusercontent.com/yzsong06/Replit-Wordpress_zh_CN
 ```
 - 执行上面脚本
 - 最后点击Run运行项目即可。
-
+## 数据库设置
+- 数据库名称：MySql
+- 数据库用户名：root
+- 数据库密码：root
+  
 ## 脚本来源
 - [ ] 修改自Github开源项目 [https://github.com/onrepl/wordpress-replit](https://github.com/onrepl/wordpress-replit)
 - [x] 修改原脚本下载wordpress英文版改为wordpress中文版
