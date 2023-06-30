@@ -1,9 +1,3 @@
-<p align="center">
-    <a href="https://cn.wordpress.org/" target="_blank" rel="noopener noreferrer">
-        <img width="400" height="216" src="https://raw.iqiq.io/sxbai/wordpress-zh_CN-on-replit/main/WordPress-logotype-alternative.png" alt="wordpress logo" />
-    </a>
-</p>
-
 <p align="center"><b>WordPress中文版</b>部署于Replit，️WordPress是一款能让您建立出色网站、博客或应用程序的开源软件。</p>
 
 <a href="https://github.com/yzsong06/Replit-WordPress_Zh_CN/main/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sxbai/wordpress-zh_CN-on-replit.svg?style=flat-square" /></a>
